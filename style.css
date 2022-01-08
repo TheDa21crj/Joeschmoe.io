@@ -106,16 +106,30 @@ section h1:hover {
     margin-bottom: 20px;
 }
 
-#svgTag:hover {
-    animation: defaultIcon 1s linear;
+#girl {
+    animation: girlIcon 1s linear;
 }
 
-@keyframes defaultIcon {
+@keyframes girlIcon {
     from {
-        transform: rotate(0deg);
+        transform: rotate3d(52, 19, -2, 58deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+
+#girl:hover {
+    animation: girlIconH 1s linear;
+    transform: rotate3d(52, 19, -2, 58deg);
+}
+
+@keyframes girlIconH {
+    from {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+        transform: rotate3d(52, 19, -2, 58deg);
     }
 }
 
