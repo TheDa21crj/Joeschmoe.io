@@ -16,6 +16,7 @@ section {
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(white 70%, gold);
@@ -47,7 +48,14 @@ section h1:hover {
     border-radius: 10px;
     background: white;
     color: black;
+    transition: all 0.3s;
+    transition-delay: 0.3s;
 }
+
+
+/* .centerDiv:hover {
+  transform: rotate(90deg);
+} */
 
 .details {
     text-align: center;
@@ -87,7 +95,28 @@ section h1:hover {
 #newImg {
     width: 200px;
     height: 250px;
-    height: auto;
+    display: none;
+    transition: all 0.3s;
+}
+
+#svgTag {
+    width: 200px;
+    height: 250px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+#svgTag:hover {
+    animation: defaultIcon 1s linear;
+}
+
+@keyframes defaultIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 button {
@@ -106,4 +135,12 @@ button {
 button:hover {
     cursor: pointer;
     background-color: rgb(255, 223, 44);
+}
+
+#alert {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 30px;
+    font-weight: normal;
+    color: red;
 }
