@@ -52,11 +52,6 @@ section h1:hover {
     transition-delay: 0.3s;
 }
 
-
-/* .centerDiv:hover {
-  transform: rotate(90deg);
-} */
-
 .details {
     text-align: center;
 }
