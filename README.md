@@ -6,6 +6,12 @@ This is a simple project which tells your avatar based on your name or the value
 
 **Client:** HTML, CSS and JavaScript (DOM manipulation - jquery).
 
+## 🔗 Links
+
+This web page has been deployed at Netlify and below is the link
+
+[Joeschmoe.io](https://upbeat-villani-fe213d.netlify.app/)
+
 ## About the Project
 
 Default Avatar is the avatar which is show to the user if the user has not yet made a successful request. A request is considered to be successful if the input field contains any value (except "").
