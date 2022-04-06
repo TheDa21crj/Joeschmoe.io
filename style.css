@@ -65,7 +65,8 @@ section h1:hover {
     text-align: center;
 }
 
-.details label {
+.details label,
+#genderLabel {
     font-family: "Work Sans", sans-serif;
     font-size: 1.4rem;
 }
