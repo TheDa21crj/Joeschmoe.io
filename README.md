@@ -8,9 +8,9 @@ This is a simple project which tells your avatar based on your name or the value
 
 ## 🔗 Links
 
-This web page has been deployed at Netlify and below is the link
+This web page has been deployed at Netlify and below is the link : -
 
-[Joeschmoe.io](https://upbeat-villani-fe213d.netlify.app/)
+[![Joeschmoe.io](https://img.shields.io/badge/-Avatar-2E67A0)](https://joeschmoe-io.pages.dev/)
 
 ## About the Project
 
@@ -34,11 +34,17 @@ This project also contains alerts which are displayed as required.
 
 - **Third Party API**
 
+```bash
+    document
+            .getElementById("newImg")
+            .setAttribute("src", `https://joeschmoe.io/api/v1/male/${name}`);
+```
+
 ## Related
 
 To know more about **Joeschmoe.io** please refer to the below given link.
 
-[Joeschmoe.io](https://joeschmoe.io/#wtf)
+[Joeschmoe.io](https://joeschmoe.io/)
 
 ## Author
 
