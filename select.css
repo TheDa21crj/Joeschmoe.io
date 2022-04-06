@@ -49,3 +49,7 @@ select::-ms-expand {
 #Female {
     background-color: #ea4c89;
 }
+
+#Other {
+    background-color: #960058;
+}
