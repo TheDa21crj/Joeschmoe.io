@@ -4,6 +4,7 @@
 <head>
     <title>Joeschmoe.io</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/select.css">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
     <link rel="shortcut icon" href="./favicon.ico" />
 </head>
@@ -21,10 +22,12 @@
                 <div>
                     <label for="gender" id="genderLabel">Select Your Gender</label>
                     <br>
-                    <select name="gender" id="">
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                    </select>
+                    <div class="selectdiv">
+                        <select name="gender" class="round">
+                            <option value="Male" id="Male">Male</option>
+                            <option value="Female" id="Female">Female</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 

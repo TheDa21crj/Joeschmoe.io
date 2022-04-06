@@ -65,6 +65,23 @@ section h1:hover {
     text-align: center;
 }
 
+select {
+    font-family: "Work Sans", sans-serif;
+    background-color: white;
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    line-height: 1.5em;
+    transition: all 0.3s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 .details label,
 #genderLabel {
     font-family: "Work Sans", sans-serif;
