@@ -76,4 +76,5 @@ main {
 .dataDiv {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
