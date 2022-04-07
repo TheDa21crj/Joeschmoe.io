@@ -1,3 +1,5 @@
+const avatar = document.getElementById("avatarImgScr");
+
 function onSubmit() {
     let gender = document.getElementById("selectText").innerHTML;
     let name = document.getElementById("name").value;
@@ -9,6 +11,7 @@ function onSubmit() {
             console.log("Female = " + gender);
         } else {
             console.log("other = " + gender);
+            avatar.setAttribute("src", `https://joeschmoe.io/api/v1/${name}`);
         }
     } else {
         setTimeout(() => {
