@@ -73,3 +73,8 @@ main {
     text-align: center;
     font-size: 2rem;
 }
+
+.dataDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
