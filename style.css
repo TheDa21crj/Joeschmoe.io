@@ -188,7 +188,7 @@ main {
         margin-bottom: 20px;
     }
     .glass {
-        min-height: 95vh;
+        height: 95vh;
     }
 }
 
@@ -206,7 +206,7 @@ main {
 
 @media only screen and (max-width: 500px) {
     .glass {
-        height: 50vh;
+        height: 70vh;
         width: 80%;
     }
 }
