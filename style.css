@@ -165,3 +165,14 @@ main {
     width: 200px;
     height: 200px;
 }
+
+@media only screen and (max-width: 830px) {
+    .dataDiv {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #name {
+        margin-bottom: 20px;
+    }
+}
