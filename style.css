@@ -136,17 +136,11 @@ main {
     position: absolute;
     top: 5%;
     right: 5%;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-
-/* #alertChiDiv {
-  position: relative;
-} */
 
 .alert {
     position: relative;
