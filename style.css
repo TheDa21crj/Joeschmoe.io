@@ -92,4 +92,32 @@ main {
     justify-content: space-between;
     cursor: pointer;
     border-width: 0px;
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    font-family: sans-serif;
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: sans-serif;
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-family: sans-serif;
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
 }
