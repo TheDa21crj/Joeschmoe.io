@@ -46,3 +46,14 @@
     stroke-dasharray: 196, 543;
     stroke-dashoffset: 437;
 }
+
+#svgTag {
+    width: 277px;
+    height: 62px;
+}
+
+@media only screen and (max-width: 830px) {
+    .container {
+        display: none;
+    }
+}
