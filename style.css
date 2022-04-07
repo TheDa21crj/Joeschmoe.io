@@ -185,6 +185,7 @@ main {
         align-items: center;
     }
     #name {
+        padding: 10px 20px;
         margin-bottom: 20px;
     }
     .glass {
@@ -210,8 +211,25 @@ main {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    #name {
+        width: 150px;
+    }
+    .avatar,
+    #avatarImgScr {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     #tilte {
         font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #tilte {
+        font-size: 0.6rem;
     }
 }

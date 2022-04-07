@@ -83,3 +83,18 @@
         width: 200px;
     }
 }
+
+@media only screen and (max-width: 830px) {
+    #selectField {
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #list {
+        width: 150px;
+    }
+    .selector {
+        width: 150px;
+    }
+}
