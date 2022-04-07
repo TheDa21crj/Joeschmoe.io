@@ -23,8 +23,8 @@
 }
 
 .btn svg rect {
-    stroke: #ec0033;
-    stroke-width: 4;
+    stroke: #76afff;
+    stroke-width: 2;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
     -webkit-transition: all 600ms ease;
@@ -33,16 +33,16 @@
 
 .btn span {
     background: rgb(255, 130, 130);
-    background: -moz-linear-gradient( left, rgba(255, 130, 130, 1) 0%, rgba(225, 120, 237, 1) 100%);
-    background: -webkit-linear-gradient( left, rgba(255, 130, 130, 1) 0%, rgba(225, 120, 237, 1) 100%);
-    background: linear-gradient( to right, rgba(255, 130, 130, 1) 0%, rgba(225, 120, 237, 1) 100%);
+    background: -moz-linear-gradient(left, #65dfc9 0%, #6cdbeb 100%);
+    background: -webkit-linear-gradient(left, #65dfc9 0%, #6cdbeb 100%);
+    background: linear-gradient(to right, #65dfc9 0%, #6cdbeb 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .btn:hover svg rect {
-    stroke-width: 4;
+    stroke-width: 3;
     stroke-dasharray: 196, 543;
     stroke-dashoffset: 437;
 }
