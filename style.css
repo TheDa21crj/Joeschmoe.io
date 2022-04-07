@@ -89,7 +89,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
     color: #658ec6;
     font-weight: 500;
     opacity: 0.8;
