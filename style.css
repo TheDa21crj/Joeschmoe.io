@@ -131,21 +131,3 @@ main {
 #name:focus {
     border-color: #76afff;
 }
-
-#submit {
-    display: inline-block;
-    padding: 15px 0px;
-    width: 30%;
-    text-decoration: none;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-width: 0px;
-    backdrop-filter: blur(2rem);
-    color: #76afff;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-
-/* #submit:hover {} */
