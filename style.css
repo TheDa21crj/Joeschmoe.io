@@ -131,3 +131,73 @@ main {
 #name:focus {
     border-color: #76afff;
 }
+
+
+/* #submit { */
+
+
+/* outline: none; */
+
+
+/* border-style: none; */
+
+
+/* cursor: pointer; */
+
+
+/* background: white; */
+
+
+/* min-height: 90vh; */
+
+
+/* padding: 1% 0%; */
+
+
+/* width: 20%; */
+
+
+/* background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)); */
+
+
+/* border-radius: 2rem; */
+
+
+/* z-index: 2; */
+
+
+/* backdrop-filter: blur(2rem); */
+
+
+/* display: flex; */
+
+
+/* flex-direction: column; */
+
+
+/* justify-content: space-evenly; */
+
+
+/* align-items: center; */
+
+
+/* } */
+
+#submit {
+    display: inline-block;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border-width: 0px;
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
