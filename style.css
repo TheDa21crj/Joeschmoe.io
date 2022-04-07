@@ -206,7 +206,7 @@ main {
 
 @media only screen and (max-width: 500px) {
     .glass {
-        height: 70vh;
+        height: 50vh;
         width: 80%;
     }
 }
