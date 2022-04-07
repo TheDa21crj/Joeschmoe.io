@@ -6,9 +6,9 @@ function onSubmit() {
 
     if (name && gender !== "Gender") {
         if (gender == "Male") {
-            console.log("Male = " + gender);
+            avatar.setAttribute("src", `https://joeschmoe.io/api/v1/male/${name}`);
         } else if (gender == "Female") {
-            console.log("Female = " + gender);
+            avatar.setAttribute("src", `https://joeschmoe.io/api/v1/female/${name}`);
         } else {
             console.log("other = " + gender);
             avatar.setAttribute("src", `https://joeschmoe.io/api/v1/${name}`);
