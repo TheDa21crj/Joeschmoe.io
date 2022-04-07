@@ -52,8 +52,40 @@
     height: 62px;
 }
 
+.btnMobo {
+    display: none;
+}
+
 @media only screen and (max-width: 830px) {
     .container {
         display: none;
+    }
+    .btnMobo {
+        display: inline-block;
+        padding: 10px 20%;
+        background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 10px;
+        z-index: 2;
+        backdrop-filter: blur(2rem);
+        border-style: solid;
+        border-width: 0px;
+        border-color: #76afff;
+    }
+    .btnMobo p {
+        font-size: 1.2em;
+        font-weight: bold;
+        background: rgb(255, 130, 130);
+        background: -moz-linear-gradient(left, #65dfc9 0%, #6cdbeb 100%);
+        background: -webkit-linear-gradient(left, #65dfc9 0%, #6cdbeb 100%);
+        background: linear-gradient(to right, #65dfc9 0%, #6cdbeb 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btnMobo {
+        padding: 10px 25%;
     }
 }
