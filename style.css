@@ -13,6 +13,8 @@ h1 {
 
 h2,
 p {
+    width: 100%;
+    text-align: center;
     color: #658ec6;
     font-weight: 500;
     opacity: 0.8;
