@@ -1,11 +1,16 @@
 function onSubmit() {
-    let gender = document.getElementById("selectText");
+    let gender = document.getElementById("selectText").innerHTML;
     let name = document.getElementById("name").value;
 
-    // console.log(name);
-    if (name === "" || gender !== "Gender") {
-        console.log("return");
+    if (name && gender !== "Gender") {
+        if (gender == "Male") {
+            console.log("Male = " + gender);
+        } else if (gender == "Female") {
+            console.log("Female = " + gender);
+        } else {
+            console.log("other = " + gender);
+        }
     } else {
-        console.log("send data");
+        console.log("alert");
     }
 }
