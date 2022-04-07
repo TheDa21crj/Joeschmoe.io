@@ -90,11 +90,13 @@ main {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    border-width: 0px;
     color: #658ec6;
     font-weight: 500;
     opacity: 0.8;
     font-family: sans-serif;
+    border-width: 0px 0px 2px 0px;
+    border-color: transparent;
+    transition: all 0.3s;
 }
 
 ::placeholder {
@@ -119,4 +121,12 @@ main {
     color: #658ec6;
     font-weight: 500;
     opacity: 0.8;
+}
+
+#name:hover {
+    border-color: #658ec6;
+}
+
+#name:focus {
+    border-color: #76afff;
 }
