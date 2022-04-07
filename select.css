@@ -6,6 +6,7 @@
 
 .selector {
     width: 250px;
+    z-index: 1;
 }
 
 #selectField {
@@ -30,6 +31,7 @@
     background: rgba(255, 255, 255, 0.7);
     border-radius: 6px;
     overflow: hidden;
+    z-index: 3;
 }
 
 .options {
