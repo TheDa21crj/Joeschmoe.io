@@ -35,7 +35,7 @@ main {
 
 .glass {
     background: white;
-    min-height: 80vh;
+    min-height: 90vh;
     width: 60%;
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
@@ -97,6 +97,7 @@ main {
     border-width: 0px 0px 2px 0px;
     border-color: transparent;
     transition: all 0.3s;
+    text-transform: capitalize;
 }
 
 ::placeholder {
