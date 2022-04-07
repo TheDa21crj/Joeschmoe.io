@@ -11,6 +11,16 @@ function onSubmit() {
             console.log("other = " + gender);
         }
     } else {
-        console.log("alert");
+        // }, 1000);
+
+        setTimeout(() => {
+            let alert = document.getElementById("alertSelect");
+            setTimeout(() => {
+                alert.className = alert.className.replace("h", "alertShow").trim();
+                setTimeout(() => {
+                    alert.className = alert.className.replace("alertShow", "h").trim();
+                }, 1000);
+            });
+        });
     }
 }

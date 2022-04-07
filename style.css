@@ -143,6 +143,8 @@ main {
 }
 
 .alert {
+    opacity: 0;
+    visibility: hidden;
     position: relative;
     padding: 10px 32px;
     background: white;
@@ -151,6 +153,11 @@ main {
     z-index: 2;
     backdrop-filter: blur(2rem);
     margin-bottom: 10px;
+}
+
+.alertShow {
+    opacity: 1;
+    visibility: visible;
 }
 
 .avatar {
