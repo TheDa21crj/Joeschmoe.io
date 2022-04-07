@@ -11,8 +11,6 @@ function onSubmit() {
             console.log("other = " + gender);
         }
     } else {
-        // }, 1000);
-
         setTimeout(() => {
             let alert = document.getElementById("alertSelect");
             setTimeout(() => {
